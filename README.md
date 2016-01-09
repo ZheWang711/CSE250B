@@ -1,3 +1,5 @@
-# My Awesome Book
+# Introduction
 
-This file serves as your book's preface, a great place to describe your book's content and ideas.
+* Difference between algorithms and machine learning: the input-output mapping **cannot** easily be made precise.
+* 4 types of output space: ** discrete, continuous, probability values, more general structures **
+* 
