@@ -82,12 +82,12 @@ $$ Residual\ Sum\ of\ Squares\ RSS(\beta) = \Sigma_{i=1}^{N}(y_i-x_i^T\beta)^2=(
 
 To minimize RRS: $$\frac{\partial{RRS(\beta)}}{\partial{\beta}}=0\Rightarrow X^T(y-X\beta)=0\Rightarrow X^TX\hat{\beta}=X^Ty$$
 
-For Quantitative Output: $$ \hat{y_i}=x_i^T\hat{\beta}$$
+For Quantitative Output: $$ \hat{y_i}=x_i^T \hat{\beta} $$
 
 For Qualitative Output: $$ \hat{g_i}=
 \begin{cases}
-label1&\text{$\hat{y_i}>0.5$}\\
-label2&\text{$\hat{y_i}<0.5$}
+label1&\quad \hat{y_i}>0.5\\
+label2&\quad \hat{y_i}<0.5
 \end{cases}
 $$
 
