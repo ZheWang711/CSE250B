@@ -24,3 +24,7 @@ intensities, the identity of each image (0, 1, . . . , 9) quickly and accurately
 
 *Unsupervised* learning problem. For example, for question (a) above, we think of the samples as points in 6830–dimensional space, which we want to cluster together in some way.
 
+## 2 Overview of Supervised Learning
+### 2.1 Introduction
+Supervised learning
+
