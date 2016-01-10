@@ -38,3 +38,15 @@
 
 ## supplemental materials form textbook 
 * Supervised vs. unsupervised learning: we have *vs.* haven't outcome measurement (quantitatively or categorically) based on a set of features.
+
+* Basic terms:
+    *  inputs = predictors or independent variables (in statistical literature) = features (in pattern recognition)
+    *  outputs = response = dependent variables
+    * variable types:
+        * **qualitative** variables = categorical variables = discrete variables = factors: **no explicit ordering**
+        * **quantitative** variables: some measurements are **bigger** than others
+        * **ordered categorical**: e.g.{small, medium, large} the difference between small may not be the same as that between medium and large.
+    * target: numeric codes that are used to represented qualitative variables.
+    * dummy variables: K-level qualitative variable is represented by a K-D binary vector of bits, only one bit is "on" at a time
+    * *X* often denotes input; *Y* often denotes quantitative output, *G* often denotes qualitative output. Observed values are written in lower case.
+    * $$\lambda x. e$$
