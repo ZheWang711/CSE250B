@@ -4,5 +4,5 @@
 * [Introduction](chapter1.md)
 * [HTF summary](htf_summary.md)
 * [Nearest Neighbor classification](nearest_neighbor_classification.md)
-* homework1
+* [homework1](homework1.md)
 
