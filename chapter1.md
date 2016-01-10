@@ -48,5 +48,11 @@
         * **ordered categorical**: e.g.{small, medium, large} the difference between small may not be the same as that between medium and large.
     * target: numeric codes that are used to represented qualitative variables.
     * dummy variables: K-level qualitative variable is represented by a K-D binary vector of bits, only one bit is "on" at a time
-    * *X* often denotes input; *Y* often denotes quantitative output, *G* often denotes qualitative output. Observed values are written in lower case.
-    * $$\lambda x. e$$
+    * Notation Conventions
+        * $$X$$ denotes an input variable; $$Y$$ denotes quantitative output, $$G$$ often denotes qualitative output. 
+        * Observed **values** are written in lower case. (upper case is variable, lower case is value)
+        * All vectors are assumed to be column vectors.
+        * A Vector have N components are written in $$\mathbf{bold}$$
+        * $$x_i$$ --- a p-vector of inputs for the ith observation.
+        * $$\mathbf{x_i}$$ --- a N-vector consisting all the observations on variable $$X_i$$
+        * The ith row of vector $$\mathbf{X}$$ is $$x_i^{T}$$
