@@ -61,7 +61,7 @@ $$ G = \{G_1, G_2,...,G_j,...G_n \}$$
 * x: Obversed
 * **X**: Matrices
 
-**X** $$ = 
+$$ \mathbf{X} = 
 \begin{pmatrix}
 x_1^T\\
 x_2^T\\
