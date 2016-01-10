@@ -26,5 +26,69 @@ intensities, the identity of each image (0, 1, . . . , 9) quickly and accurately
 
 ## 2 Overview of Supervised Learning
 ### 2.1 Introduction
-Supervised learning
+* Supervised Learning: Using *inputs*, which is measured or featured to predict the value of *outputs*
+* *Inputs* are also called *predictors*, *independent values*, *features*
+* *Outputs* are also called *responses*, *dependent variables*
 
+### 2.2 Variable Types and Terminology
+#### Output type:
+* Quantitative: in Regression problems
+* Qualitative/Categorical/Discrete/factors: in Classification problems
+
+#### Input type:
+* Quantitative
+* Qualitative
+
+#### Notations:
+* X: Input, generic
+
+X $$ =
+\begin{pmatrix}
+X_1\\
+X_2\\
+...\\
+X_j\\
+...\\
+X_n
+\end{pmatrix}
+$$
+
+* Y: Quantitative Output, generic
+* G: Qualitative Output, generic
+
+$$ G = \{G_1, G_2,...,G_j,...G_n \}$$
+
+* x: Obversed
+* **X**: Matrices
+
+**X** $$ = 
+\begin{pmatrix}
+x_1^T\\
+x_2^T\\
+...\\
+x_j^T\\
+...\\
+x_N^T
+\end{pmatrix}
+$$
+
+### 2.3 Two Simple Approaches to Prediction: Least Squares and Nearest Neighbors
+#### 2.3.1 Linear Models and Least Squares
+$$ Inputs: X^T = \{X_1, X_2,..., X_p\}$$
+
+$$ Predict: \hat{Y} = \hat{\beta_0} + \Sigma_{j=1}^{p}X_j\hat{\beta_j}=X^T\hat{\beta_0}$$
+
+$$ Residual\ Sum\ of\ Squares\ RSS(\beta) = \Sigma_{i=1}^{N}(y_i-x_i^T\beta)^2=(y-X\beta)^T(y-X\beta)$$
+
+To minimize RRS: $$\frac{\partial{RRS(\beta)}}{\partial{\beta}}=0\Rightarrow X^T(y-X\beta)=0\Rightarrow X^TX\hat{\beta}=X^Ty$$
+
+For Quantitative Output: $$ \hat{y_i}=x_i^T\hat{\beta}$$
+
+For Qualitative Output: $$ \hat{g_i}=
+\begin{cases}
+label1&\text{$\hat{y_i}>0.5$}\\
+label2&\text{$\hat{y_i}<0.5$}
+\end{cases}
+$$
+
+#### 2.3.2 Nearest-Neighbor Methods
