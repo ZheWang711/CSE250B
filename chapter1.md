@@ -16,7 +16,7 @@
     * **nearest neighbor**: distance function? Speed up?
     * **decision tree**
 * Classification with *parametrized* models
-    *  
+    * fixed 
 
 
 ## supplemental materials form textbook 
