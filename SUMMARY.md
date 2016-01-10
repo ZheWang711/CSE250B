@@ -2,5 +2,5 @@
 
 * [readme](README.md)
 * [Introduction](chapter1.md)
-* HTF summary
+* [HTF summary](htf_summary.md)
 
