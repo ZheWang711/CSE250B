@@ -10,7 +10,7 @@ From loss function, we decide a f(x) solution, which is the minimum point.
 
 The solution is  
 $$f (x) = E(Y |X = x)$$  
-$$\hat{f} (x) = Ave(y_i|x_i ∈ N_k(x))$$
+$$\hat{f} (x) = Ave(y_i|x_i \in N_k(x))$$
 
 As $$N, k \to \infty$$ such that $$k/N \to 0$$, $$\hat{f}(x) \to E(Y|X = x)$$  
 Seems we have a universal approximator.  
