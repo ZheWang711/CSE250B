@@ -6,4 +6,5 @@
 * [Nearest Neighbor classification](nearest_neighbor_classification.md)
 * [homework1](homework1.md)
 * [Non-paramatric methods](non-paramatric_methods.md)
+* [Nearest-Neighbor Methods](NN-methods.md)
 
