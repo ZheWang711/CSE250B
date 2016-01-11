@@ -6,7 +6,10 @@ From loss function, we decide a f(x) solution, which is the minimum point.
 
 ##Squared Error Loss##
 
-### start here hehehe
+$$L_{2}(Y,f(X))=(Y-f(X))^2$$   
+This leads us to a criterion for choosing f,  
+$$EPE(f)=E(L_{2}(Y,f(X)))=E(Y-f(X))^2$$   
+$$ =\int[y-f(x)]^2Pr(dx,dy)$$ 
 
 The solution is  
 $$f (x) = E(Y |X = x)$$  
