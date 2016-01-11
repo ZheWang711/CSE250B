@@ -7,18 +7,30 @@ From loss function, we decide a f(x) solution, which is the minimum point.
 ##Squared Error Loss##
 $$L_2(Y,f(X)) = (Y −f(X))^2$$   
 This leads us to a criterion for choosing f,  
-$$L_2(Y,f(X)) = E(Y −f(X))^2$$  
-$$EPE (f) = \int[y-f(x)]^2Pr(dx, dy)$$  
+$$EPE (f) = E(L_2(Y,f(X))) = E(Y −f(X))^2$$   
+$$ = \int[y-f(x)]^2Pr(dx, dy)$$  
+
 The solution is  
 $$f (x) = E(Y |X = x)$$  
-
-$$f(x) = Ave(yi|xi ∈ Nk(x))$$
-
-## Absolute Error Loss
-$$L_1(Y, f(X)) = E|Y −f(X)|$$  
-The solution is  
-$$\hat{f} (x) = median(Y |X = x)$$  
+$$\hat{f} (x) = Ave(y_i|x_i ∈ N_k(x))$$
 
 As $$N, k \to \infty$$ such that $$k/N \to 0$$, $$\hat{f}(x) \to E(Y|X = x)$$  
 Seems we have a universal approximator.  
+
+## Absolute Error Loss
+$$L_1(Y, f(X)) = E|Y −f(X)|$$  
+$$EPE (f) = E(L_1(Y, f(x))) = E|Y - f(X)|$$  
+
+The solution is  
+$$\hat{f} (x) = median(Y |X = x)$$  
+
+## Output is Categorical Variable G
+* An estimate $$\hat{G}$$ will assume values in $$G$$, the set of possible classes.
+* Our loss function can be represented by a $$K × K$$      matrix $$L$$, where $$K = card(G)$$. $$L$$ will be zero on the diagonal and nonnegative elsewhere, where $$L(k,l)$$ is the price paid for classifying an observation belonging to class $$G_k$$ as $$G_l$$.
+
+$$EPE = E[L (G, \hat{G} (X))]$$  
+$$EPE = E_X L[Gk,Gˆ(X)]Pr(Gk|X)$$
+
+
+
 
