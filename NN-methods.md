@@ -7,7 +7,6 @@ From loss function, we decide a f(x) solution, which is the minimum point.
 ##Squared Error Loss##
 
 ### start here hehehe
-###
 
 The solution is  
 $$f (x) = E(Y |X = x)$$  
