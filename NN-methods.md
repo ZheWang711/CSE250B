@@ -16,11 +16,11 @@ As $$N, k \to \infty$$ such that $$k/N \to 0$$, $$\hat{f}(x) \to E(Y|X = x)$$
 Seems we have a universal approximator.  
 
 ## Absolute Error Loss
-$$L_1(Y, f(X)) = E|Y −f(X)|$$  
-$$EPE (f) = E(L_1(Y, f(x))) = E|Y - f(X)|$$  
+$$L_1(Y, f(X)) = E|Y-f(X)|$$
+$$EPE (f) = E(L_1(Y, f(x))) = E|Y-f(X)|$$  
 
 The solution is  
-$$\hat{f} (x) = median(Y |X = x)$$  
+$$\hat{f}(x) = median(Y|X = x)$$  
 
 ## Output is Categorical Variable G
 * An estimate $$\hat{G}$$ will assume values in $$G$$, the set of possible classes.
