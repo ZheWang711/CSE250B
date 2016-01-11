@@ -30,6 +30,10 @@ $$\hat{f} (x) = median(Y |X = x)$$
 
 $$EPE = E[L (G, \hat{G} (X))]$$  
 $$EPE = E_X \sum_{k=1}^{K} L[G_k, \hat{G} (X)]Pr(G_k|X)$$  
+$$\hat{G} (X) = G_k if Pr(G_k|X = x) = max Pr(g|X = x).$$  
+This is known as the __Bayes classifier__, and says that we classify to the most probable class, using the conditional distribution $$Pr(G|X)$$  
+The error rate of the __Bayes classifier__ is called the __Bayes rate__.  
+
 
 
 
