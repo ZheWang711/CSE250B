@@ -24,7 +24,7 @@ $$\hat{f}(x) = median(Y|X = x)$$
 
 ## Output is Categorical Variable G
 * An estimate $$\hat{G}$$ will assume values in $$G$$, the set of possible classes.
-* Our loss function can be represented by a $$K × K$$      matrix $$L$$, where $$K = card(G)$$. $$L$$ will be zero on the diagonal and nonnegative elsewhere, where $$L(k,l)$$ is the price paid for classifying an observation belonging to class $$G_k$$ as $$G_l$$.
+* Our loss function can be represented by a $$K \times K$$      matrix $$L$$, where $$K = card(G)$$. $$L$$ will be zero on the diagonal and nonnegative elsewhere, where $$L(k,l)$$ is the price paid for classifying an observation belonging to class $$G_k$$ as $$G_l$$.
 
 $$EPE = E[L (G, \hat{G} (X))]$$  
 $$EPE = E_X \sum_{k=1}^{K} L[G_k, \hat{G} (X)]Pr(G_k|X)$$  
