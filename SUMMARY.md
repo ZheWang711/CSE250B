@@ -7,5 +7,5 @@
 * [homework1](homework1.md)
 * [Non-paramatric methods](non-paramatric_methods.md)
 * [Nearest-Neighbor Methods](NN-methods.md)
-* Decision Trees
+* [Decision Trees](decision_trees.md)
 
