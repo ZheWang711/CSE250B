@@ -8,5 +8,5 @@
 * [Non-paramatric methods](non-paramatric_methods.md)
 * [Nearest-Neighbor Methods](NN-methods.md)
 * [Decision Trees](decision_trees.md)
-* numPy
+* [numPy](numpy.md)
 
