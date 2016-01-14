@@ -4,3 +4,6 @@
 | -- | -- |
 | 0:2 | 1:2 |
 
+## CNN (Condensed Nearest Neighbour)
+
+
