@@ -11,8 +11,9 @@
     * ```ndlm```: the number of axes(dimensions) if the array.
     * `shape`: a tuple of integers indicating the size of the array in each dimension.
     * `size` total number of elements of the array
-    * `itemsize` size in bytes of each element of the array
+    * `itemsize` size in bytes of each element of the array.
     * `dtype` an object describing the type of the elements in the array
+        * Caution: Some precision error may occur due to incorrect data type (`uint8` is not enough) 
 
 * Creation
     * import 
