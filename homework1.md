@@ -6,4 +6,9 @@
 
 ## CNN (Condensed Nearest Neighbour)
 
+* Divide the training set data into 3 types:
+    * Outliers: points which would not be recognized as the correct types if added to the database later.
+    * Prototypes: minimum set of points required in the training set for all the other non-outlier points to be correctly recognised
+    * Absorbed points: points which are not outliers and would be corrected recognised based just on the set of prototype points
+
 
