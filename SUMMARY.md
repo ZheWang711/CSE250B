@@ -9,5 +9,5 @@
 * [Nearest-Neighbor Methods](NN-methods.md)
 * [Decision Trees](decision_trees.md)
 * [numPy](numpy.md)
-* Generative model classification
+* [Generative model classification](generative_model_classification.md)
 
