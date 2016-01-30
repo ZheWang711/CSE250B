@@ -22,4 +22,7 @@ $$\Sigma_{ij} = \Sigma_{ji} = cov(X_{i}, Y_{j})$$ if $$i \neq j$$
 
 $$\Sigma_{ii} = var(X_{i})$$
 
+In matrix / vector form: $$\mu = \Bbb{E}X$$ and $$\Sigma = \Bbb{E}(X- \mu)(X - \mu)^T$$
+
+
 
