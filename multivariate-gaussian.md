@@ -1,7 +1,7 @@
 # Multivariate Gaussian
 
 ## Univariate Gaussian
-$$var(x) = \Bbb{E}(X - \mu)^2 = E(X^2) - \mu^2,  where \mu = E(X)$$
+$$var(x) = \Bbb{E}(X - \mu)^2 = \Bbb{E}(X^2) - \mu^2,  where \mu = \Bbb{E}(X)$$
 
 $$std(X) = \sqrt{var(X)}$$
 
