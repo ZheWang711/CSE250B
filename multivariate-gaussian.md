@@ -26,3 +26,4 @@ In matrix / vector form: $$\mu = \Bbb{E}X$$ and $$\Sigma = \Bbb{E}(X- \mu)(X - \
 
 
 
+
