@@ -10,4 +10,5 @@
 * [Decision Trees](decision_trees.md)
 * [numPy](numpy.md)
 * [Generative model classification](generative_model_classification.md)
+* [Multivariate Gaussian](multivariate-gaussian.md)
 
