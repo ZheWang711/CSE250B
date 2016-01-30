@@ -18,3 +18,8 @@ $$N(\mu, \Sigma)$$ Gaussian in $$\Bbb{R}^p$$
 
 Density $$p(x) = \frac {1} {(2\pi)^{p/2}|\Sigma|^{1/2}} exp(-\frac{1}{2} (x-\mu)^T\Sigma^{-1}(x-\mu))$$
 
+$$\Sigma_{ij} = \Sigma_{ji} = cov(X_{i}, Y_{j})$$ if $$i \neq j$$
+
+$$\Sigma_{ii} = var(X_{i})$$
+
+
