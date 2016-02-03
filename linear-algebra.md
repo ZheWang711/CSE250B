@@ -280,6 +280,20 @@ __Fact__ Let M $$\in \Bbb{R}^{p \times p}$$ be a real symmetric matrix
 
 __Proof__
 
+Let's do (i), the other is similar
+
+$$\Rightarrow$$ Say M is P.S.D
+
+$$\therefore$$ $$\mu_i^T M \mu_i \geq 0$$
+
+By spectral decomposition
+
+$$\mu_i^T M \mu_i = \mu_i^T (\lambda_1 \mu_1 \mu_1^T + \cdots + \lambda_p \mu_p \mu_p^T) \mu_i = \mu_i ^T (\lambda_i \mu_i) = \lambda_i ||\mu_i||^2 = \lambda_i$$
+
+
+$$\Leftarrow$$ Say all $$\lambda_i \geq 0$$
+
+
 
 
 
