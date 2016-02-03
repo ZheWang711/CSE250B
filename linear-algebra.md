@@ -177,7 +177,22 @@ This transformation is completely determined by its behavior on any p linearly i
 
 If M has eigenvalue $$\lambda _i$$ and orthogonal eigenvectors $$\mu_i$$ and $$N\mu_i = \lambda_i\mu_i \forall i$$ then $$N = M$$
 
+### e.
+__Fact__ Let M be a symmetric $$p \times p$$ matrix with eigenvalues $$\lambda_i$$ and orthogonal eigenvectors $$\mu_i$$, then "spectral decomposition"
 
-
+(i)
+$$M = \begin{pmatrix}
+0 & 1 \\
+1 & 0 \\
+\end{pmatrix}
+\begin{pmatrix}
+0 & 1 \\
+1 & 0 \\
+\end{pmatrix}
+\begin{pmatrix}
+0 & 1 \\
+1 & 0 \\
+\end{pmatrix}
+$$
 
 
