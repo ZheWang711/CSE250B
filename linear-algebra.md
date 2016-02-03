@@ -351,6 +351,10 @@ $$Q$$ is orthogonal
 __Ex__
 Write $$(x,y) \in \Bbb{R}^2$$ in the basis $$\frac 1 {\sqrt2}\begin{pmatrix}1\\1\\\end{pmatrix}$$, $$\frac 1 {\sqrt2}\begin{pmatrix}1\\-1\\\end{pmatrix}$$
 
+## 5. Multivariate Gaussian
+### a.
+$$N(\mu, \Sigma)$$ in $$\Bbb{R}^p$$
+
 
 
 
