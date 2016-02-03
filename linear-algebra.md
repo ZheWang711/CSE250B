@@ -114,6 +114,32 @@ $$\mu_i \mu_j = 0  \quad i\neq j$$
 What are the eigenvalues and eigenvectors of
 
 (1) 
+$$\begin{pmatrix}
+2 & 0 \\
+0 & 1 \\
+\end{pmatrix}$$
+
+$$\begin{pmatrix}
+2 & 0 \\
+0 & 1 \\
+\end{pmatrix}$$
+$$\begin{pmatrix}
+x \\
+y \\
+\end{pmatrix}$$
+$$=
+\lambda
+\begin{pmatrix}
+x \\
+y \\
+\end{pmatrix}
+$$
+
+$$2x = \lambda x$$
+
+$$y = \lambda y$$
+
+
 
 
 
