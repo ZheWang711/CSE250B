@@ -187,9 +187,9 @@ $$M = \begin{pmatrix}
 | & | & & |\\
 \end{pmatrix}
 \begin{pmatrix}
- \lambda_1 & 0 & 0 & \cdots  & 0\\
- \vdots & \vdots & \vdots & \ddots & \vdots \\
- 0 &0 &0&\cdots & \lambda_p
+ \lambda_1  & \cdots  & 0\\
+ \vdots  & \ddots & \vdots \\
+ 0 &\cdots & \lambda_p
  \\
 \end{pmatrix}
 \begin{pmatrix}
