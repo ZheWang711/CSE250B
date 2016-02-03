@@ -193,8 +193,10 @@ $$M = \begin{pmatrix}
  \\
 \end{pmatrix}
 \begin{pmatrix}
-0 & 1 \\
-1 & 0 \\
+- & \mu_1^T & - \\
+- & \mu_2^T & - \\
+  & \vdots  &   \\
+- & \mu_p^T & - \\
 \end{pmatrix}
 $$
 
