@@ -269,6 +269,18 @@ $$N = \frac 1 2 \begin{pmatrix}
 \end{pmatrix}
 $$
 
+## 3. Which matrices are PSD?
+
+### (a)
+__Fact__ Let M $$\in \Bbb{R}^{p \times p}$$ be a real symmetric matrix
+
+(i) M is P.S.D. $$\Leftrightarrow$$ all its eigenvalues $$\lambda_i$$ are $$\geq 0$$
+
+(ii) M is P.D. $$\Leftrightarrow$$ all $$\lambda_i > 0$$
+
+__Proof__
+
+
 
 
 
