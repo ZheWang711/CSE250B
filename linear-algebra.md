@@ -211,6 +211,8 @@ $$\begin{pmatrix}
 \mu_1 & \mu_2 & \cdots & \mu_p \\
 | & | & & |\\
 \end{pmatrix}
+
+\underbrace{
 \begin{pmatrix}
  \lambda_1  & \cdots  & 0\\
  \vdots  & \ddots & \vdots \\
@@ -231,6 +233,8 @@ $$\begin{pmatrix}
 | \\
 \end{pmatrix}
 }_{\begin{pmatrix}1\\0\\\vdots\\0\\\end{pmatrix}}
+
+}_{\begin{pmatrix}\lambda_1\\0\\\vdots\\0\\\end{pmatrix}}
 $$
 
 $$(\lambda_1\mu_1\mu_1^T + \cdots + \lambda_p \mu_p \mu_p^T)\mu_i = (\lambda_i \mu_i \mu_i^T \mu_i) = \lambda_i \mu_i$$
