@@ -200,14 +200,13 @@ $$M = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-Check (i)
-
-$$(\lambda_1\mu_1\mu_1^T + \cdots + \lambda_p \mu_p \mu_p^T)\mu_i = (\lambda_i \mu_i \mu_i^T \mu_i) = \lambda_i \mu_i$$
-
 (ii)
 
 $$M = \lambda_1\mu_1\mu_1^T + \lambda_2\mu_2\mu_2^T + \cdots + \lambda_p\mu_p\mu_p^T$$
 
+Check (i)
+
+$$(\lambda_1\mu_1\mu_1^T + \cdots + \lambda_p \mu_p \mu_p^T)\mu_i = (\lambda_i \mu_i \mu_i^T \mu_i) = \lambda_i \mu_i$$
 
 
 
