@@ -139,6 +139,18 @@ $$2x = \lambda x$$
 
 $$y = \lambda y$$
 
+$$e1 =\begin{pmatrix}
+1 \\
+0 \\
+\end{pmatrix}
+$$, eigenvalue 2
+
+$$e2 =\begin{pmatrix}
+0 \\
+1 \\
+\end{pmatrix}
+$$, eigenvalue 1
+
 
 
 
