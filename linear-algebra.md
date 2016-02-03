@@ -1,6 +1,6 @@
 # Linear Algebra Review
 
-## Positive Semidefinite Matrices
+## 1. Positive Semidefinite Matrices
 
 ### a. Definition
 A real symmetric $$p \times p$$ matrix M is positive semidefinie (P.S.D) if
@@ -91,7 +91,7 @@ $$= \Bbb{E}[Z \cdot (X-\mu) (X-\mu) \cdot Z]$$
 
 $$= \Bbb{E}[((X-\mu) \cdot Z)^2] \geq 0$$
 
-
+## 2. Eigenvalues and eigenvectors
 
 
 
