@@ -98,7 +98,16 @@ A $$p \times p$$ matrix M has eigenvalue $$\lambda$$, if there is some $$\mu \in
 
 This $$\mu$$ is called the eigenvector corresponding to $$\lambda$$
 
+### b.
+__Fact__ Let M be any real symmetric $$p \times p$$ matrix
 
+(i) M has p real eigenvalues $$\lambda_1, \cdots, \lambda_p$$ (not necessarily distinct)
+
+(ii) There is a set of p corresponding eigenvectors $$\mu_1, \cdots, \mu_p$$ that form an orthogonal basis of $$\Bbb{R}^p$$, i.e.,
+
+$$||\mu_i|| = 1 \quad \forall i$$
+
+$$\mu_i \mu_j = 0  \quad i\neq j$$
 
 
 
