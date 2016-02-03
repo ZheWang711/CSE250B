@@ -389,6 +389,7 @@ $$
 
 (I) $$| \Sigma | = \lambda_{1} \cdots \lambda_{p}$$
 
+(II) What is  $$\Sigma ^{-1}$$
 
 
 
