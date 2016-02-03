@@ -38,9 +38,21 @@ Is PSD
 
 Note: $$Z^TMZ = \sum_{ij} M_{ij}Z_iZ_j$$
 
-
 (2)
 $$\begin{pmatrix}
 1 & 2\\
 2 & 1\\
 \end{pmatrix}$$
+
+$$\begin{pmatrix}
+z1 & z2\\
+\end{pmatrix}$$
+$$\begin{pmatrix}
+1 & 2 \\
+2 & 1 \\
+\end{pmatrix}$$
+$$\begin{pmatrix}
+z1 \\ z2\\
+\end{pmatrix}$$
+=
+$$z1^2 + z2^2 + 4z1z2 \geq 0$$
