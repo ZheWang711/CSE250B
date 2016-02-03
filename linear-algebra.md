@@ -357,7 +357,7 @@ $$(x,y) \mapsto \frac 1 {\sqrt2} \begin{pmatrix} x+y\\x-y\\ \end{pmatrix}$$
 ### a.
 $$N(\mu, \Sigma)$$ in $$\Bbb{R}^p$$, Mean $$\mu \in \Bbb{R}^p$$, Covariance $$\Sigma \in \Bbb{R}^{p\times p}$$
 
-Density 
+Density $$p(x) = \frac {1} {(2\pi)^{p/2}|\Sigma|^{1/2}} exp(-\frac{1}{2} (x-\mu)^T\Sigma^{-1}(x-\mu))$$
 
 
 
