@@ -151,8 +151,11 @@ $$e2 =\begin{pmatrix}
 \end{pmatrix}
 $$, eigenvalue 1
 
-
-
+(2)
+$$\begin{pmatrix}
+0 & 1 \\
+1 & 0 \\
+\end{pmatrix}$$
 
 
 
