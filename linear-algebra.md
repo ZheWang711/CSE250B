@@ -171,6 +171,13 @@ $$, eigenvalue -1
 
 ### d. Remark
 
+A $$p \times p$$ matrix M represents a linear transformation given by $$x \mapsto Mx$$
+
+This transformation is completely determined by its behavior on any p linearly independent vectors (because all other vectors are linear combinations of these)
+
+If M has eigenvalue $$\lambda _i$$ and orthogonal eigenvectors $$\mu_i$$ and $$N\mu_i = \lambda_i\mu_i \forall i$$ then $$N = M$$
+
+
 
 
 
