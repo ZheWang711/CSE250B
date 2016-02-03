@@ -182,12 +182,14 @@ __Fact__ Let M be a symmetric $$p \times p$$ matrix with eigenvalues $$\lambda_i
 
 (i)
 $$M = \begin{pmatrix}
-0 & 1 \\
-1 & 0 \\
+ \\
+ \\
 \end{pmatrix}
 \begin{pmatrix}
-0 & 1 \\
-1 & 0 \\
+ \lambda_1 & 0 & 0 & \cdots  & 0\\
+ \vdots & \vdots & \vdots & \ddots & \vdots \\
+ 0 &0 &0&\cdots & \lambda_p
+ \\
 \end{pmatrix}
 \begin{pmatrix}
 0 & 1 \\
