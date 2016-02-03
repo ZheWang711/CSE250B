@@ -239,5 +239,38 @@ $$
 
 $$(\lambda_1\mu_1\mu_1^T + \cdots + \lambda_p \mu_p \mu_p^T)\mu_i = (\lambda_i \mu_i \mu_i^T \mu_i) = \lambda_i \mu_i$$
 
+__Ex__
+
+A $$2 \times 2$$ matrix N has eigenvalue-eigenvector pairs
+
+1, $$\frac 1 {\sqrt{2}}\begin{pmatrix}
+1\\
+1\\
+\end{pmatrix}$$
+
+2, $$\frac 1 {\sqrt{2}}\begin{pmatrix}
+1\\
+-1\\
+\end{pmatrix}$$
+
+What is N?
+
+$$N = \frac 1 2 \begin{pmatrix}
+1 & 1\\
+1 & -1
+\end{pmatrix}
+\begin{pmatrix}
+1 & 0\\
+0 & 2
+\end{pmatrix}
+\begin{pmatrix}
+1 & 1\\
+1 & -1
+\end{pmatrix}
+$$
+
+
+
+
 
 
