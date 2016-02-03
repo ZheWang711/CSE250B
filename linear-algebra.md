@@ -59,6 +59,8 @@ $$z_1^2 + z_2^2 + 4z_1z_2 < 0 if Z_2 = Z_1$$
 
 ### b.
 
-A diagonal matrix is P.S.D $$\Leftrightarrow$$ 
+A diagonal matrix is P.S.D $$\Leftrightarrow$$ its entries are $$\geq 0$$
+
+
 
 
