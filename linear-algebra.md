@@ -157,6 +157,17 @@ $$\begin{pmatrix}
 1 & 0 \\
 \end{pmatrix}$$
 
+$$e1 =\frac {1} {\sqrt{2}} \begin{pmatrix}
+1 \\
+1 \\
+\end{pmatrix}
+$$, eigenvalue 1
+
+$$e2 =\frac {1} {\sqrt{2}} \begin{pmatrix}
+1 \\
+-1 \\
+\end{pmatrix}
+$$, eigenvalue 1
 
 
 
