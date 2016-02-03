@@ -302,10 +302,22 @@ $$Z^T M Z = Z^T (\lambda_1 \mu_1 \mu_1^T + \cdots + \lambda_p \mu_p \mu_p^T)Z = 
 $$= \sum_{i=1}^{p} \lambda_i (Z \cdot \mu_i)^2 \geq 0$$
 
 ## 4. Projection and basis change
-### a.
+### a. Projection
 What is the projection of a vector $$x \in \Bbb{R}^p$$ onto direction $$\mu$$? ($$||\mu|| = 1$$)
 
 Dot product $$x\cdot\mu$$
+
+### b. Plane
+What is the projection of x onto the plane defined by direction $$\mu_1$$, $$\mu_2$$ that are orthogonal to each other?
+
+$$||\mu_1|| = ||\mu_2|| = 1$$, $$\mu_1 \cdot \mu_2 = 0$$
+
+$$(x \cdot \mu_1, x \cdot \mu_2)$$
+
+### c.
+Let $$\mu_1, \cdots , \mu_p$$ be an orthogonal basis of $$\Bbb{R}^p$$, i.e., $$\mu_i \cdot \mu_j = \begin{cases}1 \quad if \quad i = j\\
+0 \quad i \neq j \\ 
+\end{cases}$$
 
 
 
