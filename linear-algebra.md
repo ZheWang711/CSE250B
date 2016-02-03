@@ -299,11 +299,16 @@ Pick any $$Z \in \Bbb{R} ^p$$
 We'll show $$Z^T M Z \geq 0$$
 
 $$Z^T M Z = Z^T (\lambda_1 \mu_1 \mu_1^T + \cdots + \lambda_p \mu_p \mu_p^T)Z = \sum_{i=1}^{p} \lambda_i (Z^T \mu_i)(\mu_i^T Z) $$
-$$= \sum_{i=1}^{p} \lambda_i (Z\mu_i)^2 \geq 0$$
+$$= \sum_{i=1}^{p} \lambda_i (Z \cdot \mu_i)^2 \geq 0$$
 
 ## 4. Projection and basis change
 ### a.
-What is the projection of a vector $$x \in \Bbb{R}^p$$ onto direction u? ($$||u|| = 1$$)
+What is the projection of a vector $$x \in \Bbb{R}^p$$ onto direction $$\mu$$? ($$||\mu|| = 1$$)
+
+Dot product $$x\cdot\mu$$
+
+
+
 
 
 
