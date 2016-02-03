@@ -328,12 +328,14 @@ x \cdot \mu_2 \\
 x \cdot \mu_p \\
 \end{pmatrix}
 = 
+\underbrace{
 \begin{pmatrix}
 - & \mu_1^T & - \\
 - & \mu_2^T & - \\
 & \vdots & \\
 - & \mu_p^T & - \\
 \end{pmatrix}
+}_{Q^T}
 \begin{pmatrix}
 | \\ 
 x \\
