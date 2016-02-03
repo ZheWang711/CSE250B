@@ -22,17 +22,17 @@ $$\begin{pmatrix}
 \end{pmatrix}$$
 
 $$\begin{pmatrix}
-z1 & z2\\
+z_1 & z_2\\
 \end{pmatrix}$$
 $$\begin{pmatrix}
 1 & 1 \\
 1 & 1\\
 \end{pmatrix}$$
 $$\begin{pmatrix}
-z1 \\ z2\\
+z_1 \\ z_2\\
 \end{pmatrix}$$
 =
-$$z1^2 + z2^2 + 2z1z2 \geq 0$$
+$$z_1^2 + z_2^2 + 2z_1z_2 \geq 0$$
 
 Is PSD
 
@@ -45,14 +45,17 @@ $$\begin{pmatrix}
 \end{pmatrix}$$
 
 $$\begin{pmatrix}
-z1 & z2\\
+z_1 & z_2\\
 \end{pmatrix}$$
 $$\begin{pmatrix}
 1 & 2 \\
 2 & 1 \\
 \end{pmatrix}$$
 $$\begin{pmatrix}
-z1 \\ z2\\
+z_1 \\ z_2\\
 \end{pmatrix}$$
 =
-$$z1^2 + z2^2 + 4z1z2 \geq 0$$
+$$z_1^2 + z_2^2 + 4z_1z_2 < 0 if Z_2 = Z_1$$
+
+
+
