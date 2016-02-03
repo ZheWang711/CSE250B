@@ -93,6 +93,11 @@ $$= \Bbb{E}[((X-\mu) \cdot Z)^2] \geq 0$$
 
 ## 2. Eigenvalues and eigenvectors
 
+### a. Definition
+A $$p \times p$$ matrix M has eigenvalue $$\lambda$$, if there is some $$\mu \in \Bbb{R}^p \quad s.t \quad M\mu = \lambda \mu$$
+
+This $$\mu$$ is called the eigenvector corresponding to $$\lambda$$
+
 
 
 
