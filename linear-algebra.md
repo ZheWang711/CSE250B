@@ -22,8 +22,21 @@ $$\begin{pmatrix}
 \end{pmatrix}$$
 
 $$\begin{pmatrix}
-
+z1 & z2\\
 \end{pmatrix}$$
+$$\begin{pmatrix}
+1 & 1 \\
+1 & 1\\
+\end{pmatrix}$$
+$$\begin{pmatrix}
+z1 \\ z2\\
+\end{pmatrix}$$
+=
+$$z1^2 + z2^2 + 2z1z2 \geq 0$$
+
+Is PSD
+
+Note: $$Z^TMZ = \sum_{ij} M_{ij}Z_iZ_j$$
 
 
 (2)
