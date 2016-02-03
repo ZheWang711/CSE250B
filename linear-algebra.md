@@ -343,6 +343,12 @@ x \\
 \end{pmatrix}
 $$
 
+$$Q^TQ = I$$ ; $$QQ^T = I$$
+
+$$Q$$ is orthogonal
+
+
+
 
 
 
