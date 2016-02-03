@@ -79,7 +79,7 @@ __Proof__
 
 (i) $$\Sigma$$ is symmetric
 
-$$\Sigma _{ij} = cov(X_i, X_j) = cov(X_j, X_i) = \Sigma _{i, j}$$
+$$\Sigma _{ij} = cov(X_i, X_j) = cov(X_j, X_i) = \Sigma _{ij}$$
 
 
 
