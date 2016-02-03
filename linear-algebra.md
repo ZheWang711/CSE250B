@@ -319,6 +319,23 @@ Let $$\mu_1, \cdots , \mu_p$$ be an orthogonal basis of $$\Bbb{R}^p$$, i.e., $$\
 0 \quad i \neq j \\ 
 \end{cases}$$
 
+Write $$x \in \Bbb{R}^p$$ in this basis:
+
+$$\begin{pmatrix}
+x \cdot \mu_1 \\
+x \cdot \mu_2 \\
+\vdots \\
+x \cdot \mu_p \\
+\end{pmatrix}
+= 
+\begin{pmatrix}
+\mu_1 \\
+\mu_2 \\
+\vdots \\
+\mu_p \\
+\end{pmatrix}
+$$
+
 
 
 
