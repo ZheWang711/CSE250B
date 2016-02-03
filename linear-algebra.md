@@ -387,7 +387,7 @@ Write $$\Sigma = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-(I) $$ |\Sigma| = \lambda_1 \cdots \lambda_p$$
+(I) $$| \Sigma | = \lambda_{1} \cdots \lambda_{p}$$
 
 
 
