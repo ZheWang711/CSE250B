@@ -109,6 +109,11 @@ $$||\mu_i|| = 1 \quad \forall i$$
 
 $$\mu_i \mu_j = 0  \quad i\neq j$$
 
+### c. Ex
+
+What are the eigenvalues and eigenvectors of
+
+(1) 
 
 
 
