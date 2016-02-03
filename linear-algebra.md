@@ -57,9 +57,19 @@ z_1 \\ z_2\\
 =
 $$z_1^2 + z_2^2 + 4z_1z_2 < 0 if Z_2 = Z_1$$
 
-### b.
+### b. Diagonal matrices
 
 A diagonal matrix is P.S.D $$\Leftrightarrow$$ its entries are $$\geq 0$$
+
+### c.
+If M, N are of the same size and PSD, then M+N is PSD
+
+M+N is also symmetric
+
+$$Z^T(M+N)Z = Z^TMZ + Z^TNZ \geq 0$$
+
+### d. Covariance matrices
+
 
 
 
