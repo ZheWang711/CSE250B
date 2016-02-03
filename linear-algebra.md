@@ -182,8 +182,9 @@ __Fact__ Let M be a symmetric $$p \times p$$ matrix with eigenvalues $$\lambda_i
 
 (i)
 $$M = \begin{pmatrix}
- \\
- \\
+| & | & & |\\
+\mu_1 & \mu_2 & \cdots & \mu_p \\
+| & | & & |\\
 \end{pmatrix}
 \begin{pmatrix}
  \lambda_1 & 0 & 0 & \cdots  & 0\\
