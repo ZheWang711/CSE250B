@@ -359,6 +359,14 @@ $$N(\mu, \Sigma)$$ in $$\Bbb{R}^p$$, Mean $$\mu \in \Bbb{R}^p$$, Covariance $$\S
 
 Density $$p(x) = \frac {1} {(2\pi)^{p/2}|\Sigma|^{1/2}} exp(-\frac{1}{2} (x-\mu)^T\Sigma^{-1}(x-\mu))$$
 
+### b. Easy case
+(i) Spherical $$\Sigma = \sigma^2 I$$
+
+(ii) Diagonal $$\Sigma = diag(\lambda_1, \cdots, \lambda_p)$$
+
+(iii) General $$\Sigma$$
+
+Write $$\Sigma = \begin{pmatrix} \end{pmatrix}$$
 
 
 
