@@ -329,10 +329,15 @@ x \cdot \mu_p \\
 \end{pmatrix}
 = 
 \begin{pmatrix}
-\mu_1 \\
-\mu_2 \\
-\vdots \\
-\mu_p \\
+- & \mu_1^T & - \\
+- & \mu_2^T & - \\
+& \vdots & \\
+- & \mu_p^T & - \\
+\end{pmatrix}
+\begin{pmatrix}
+| \\ 
+x \\
+| \\
 \end{pmatrix}
 $$
 
