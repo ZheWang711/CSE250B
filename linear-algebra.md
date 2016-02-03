@@ -206,6 +206,25 @@ $$M = \lambda_1\mu_1\mu_1^T + \lambda_2\mu_2\mu_2^T + \cdots + \lambda_p\mu_p\mu
 
 Check (i)
 
+$$\begin{pmatrix}
+| & | & & |\\
+\mu_1 & \mu_2 & \cdots & \mu_p \\
+| & | & & |\\
+\end{pmatrix}
+\begin{pmatrix}
+ \lambda_1  & \cdots  & 0\\
+ \vdots  & \ddots & \vdots \\
+ 0 &\cdots & \lambda_p
+ \\
+\end{pmatrix}
+\begin{pmatrix}
+- & \mu_1^T & - \\
+- & \mu_2^T & - \\
+  & \vdots  &   \\
+- & \mu_p^T & - \\
+\end{pmatrix}
+$$
+
 $$(\lambda_1\mu_1\mu_1^T + \cdots + \lambda_p \mu_p \mu_p^T)\mu_i = (\lambda_i \mu_i \mu_i^T \mu_i) = \lambda_i \mu_i$$
 
 
