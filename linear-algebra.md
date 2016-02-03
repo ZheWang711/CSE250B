@@ -195,4 +195,8 @@ $$M = \begin{pmatrix}
 \end{pmatrix}
 $$
 
+(ii)
+
+$$M = \lambda_1\mu_1\mu_1^T + \lambda_2\mu_2\mu_2^T + \cdots + \lambda_p\mu_p\mu_p^T +$$
+
 
