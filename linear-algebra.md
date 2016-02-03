@@ -290,6 +290,7 @@ By spectral decomposition
 
 $$\mu_i^T M \mu_i = \mu_i^T (\lambda_1 \mu_1 \mu_1^T + \cdots + \lambda_p \mu_p \mu_p^T) \mu_i = \mu_i ^T (\lambda_i \mu_i) = \lambda_i ||\mu_i||^2 = \lambda_i$$
 
+$$\lambda_i \geq 0$$
 
 $$\Leftarrow$$ Say all $$\lambda_i \geq 0$$
 
