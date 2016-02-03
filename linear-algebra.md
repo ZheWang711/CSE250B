@@ -217,12 +217,20 @@ $$\begin{pmatrix}
  0 &\cdots & \lambda_p
  \\
 \end{pmatrix}
+
+\underbrace{
 \begin{pmatrix}
 - & \mu_1^T & - \\
 - & \mu_2^T & - \\
   & \vdots  &   \\
 - & \mu_p^T & - \\
 \end{pmatrix}
+\begin{pmatrix}
+| \\
+\mu_1\\
+| \\
+\end{pmatrix}
+}_{\begin{pmatrix}1\\0\\\vdots\\0\\\end{pmatrix}}
 $$
 
 $$(\lambda_1\mu_1\mu_1^T + \cdots + \lambda_p \mu_p \mu_p^T)\mu_i = (\lambda_i \mu_i \mu_i^T \mu_i) = \lambda_i \mu_i$$
