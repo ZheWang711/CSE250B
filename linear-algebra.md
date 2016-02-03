@@ -55,7 +55,7 @@ $$\begin{pmatrix}
 z_1 \\ z_2\\
 \end{pmatrix}$$
 =
-$$z_1^2 + z_2^2 + 4z_1z_2 < 0 if Z_2 = Z_1$$
+$$z_1^2 + z_2^2 + 4z_1z_2 < 0 \text{ if } Z_2 = -Z_1$$
 
 ### b. Diagonal matrices
 
