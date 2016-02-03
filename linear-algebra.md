@@ -71,7 +71,7 @@ $$Z^T(M+N)Z = Z^TMZ + Z^TNZ \geq 0$$
 ### d. Covariance matrices
 Let $$X \in \Bbb{R}^p$$ be a random variable.
 
-Mean $$\mu = \Bbb{E}X$$, covariance $$\Sigma = [(X-\mu)(X-\mu)^T]$$
+Mean $$\mu = \Bbb{E}X$$, covariance $$\Sigma = \Bbb{E}[(X-\mu)(X-\mu)^T]$$
 
 __Fact__ $$\Sigma$$ is PSD
 
@@ -80,6 +80,17 @@ __Proof__
 (i) $$\Sigma$$ is symmetric
 
 $$\Sigma _{ij} = cov(X_i, X_j) = cov(X_j, X_i) = \Sigma _{ij}$$
+
+(ii) Pick any $$Z \in \Bbb{R}^p$$
+
+$$Z^T\Sigma Z = Z^T \Bbb{E}[(X-\mu)(X-\mu)^T] Z$$
+
+$$= \Bbb{E}[Z^T(X-\mu)(X-\mu)^TZ]$$
+
+$$= \Bbb{E}[Z \cdot (X-\mu) (X-\mu) \cdot Z]$$
+
+$$= \Bbb{E}[((X-\mu) \cdot Z)^2]$$
+
 
 
 
