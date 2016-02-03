@@ -89,7 +89,9 @@ $$= \Bbb{E}[Z^T(X-\mu)(X-\mu)^TZ]$$
 
 $$= \Bbb{E}[Z \cdot (X-\mu) (X-\mu) \cdot Z]$$
 
-$$= \Bbb{E}[((X-\mu) \cdot Z)^2]$$
+$$= \Bbb{E}[((X-\mu) \cdot Z)^2] \geq 0$$
+
+
 
 
 
