@@ -294,6 +294,13 @@ $$\lambda_i \geq 0$$
 
 $$\Leftarrow$$ Say all $$\lambda_i \geq 0$$
 
+Pick any $$Z \in \Bbb{R} ^p$$
+
+We'll show $$Z^T M Z \geq 0$$
+
+$$Z^T M Z = Z^T (\lambda_1 \mu_1 \mu_1^T + \cdots + \lambda_p \mu_p \mu_p^T)Z = \sum_{i=1}^{p} \lambda_i (Z^T \mu_i)(\mu_i^T Z) $$
+$$= \sum_{i=1}^{p} \lambda_i (Z\mu_i)^2 \geq 0$$
+
 
 
 
