@@ -355,7 +355,6 @@ Write $$(x,y) \in \Bbb{R}^2$$ in the basis $$\frac 1 {\sqrt2}\begin{pmatrix}1\\1
 ### a.
 $$N(\mu, \Sigma)$$ in $$\Bbb{R}^p$$, Mean $$\mu \in \Bbb{R}^p$$, Covariance $$\Sigma \in \Bbb{R}^{p\times p}$$
 
-
 Density 
 
 
