@@ -169,7 +169,7 @@ $$e2 =\frac {1} {\sqrt{2}} \begin{pmatrix}
 \end{pmatrix}
 $$, eigenvalue -1
 
-
+### d. 
 
 
 
