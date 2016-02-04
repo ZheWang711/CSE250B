@@ -366,7 +366,24 @@ Density $$p(x) = \frac {1} {(2\pi)^{p/2}|\Sigma|^{1/2}} exp(-\frac{1}{2} (x-\mu)
 
 (iii) General $$\Sigma$$
 
-Write $$\Sigma = \begin{pmatrix}1 \end{pmatrix}$$
+Write $$\Sigma = \begin{pmatrix}
+| & | & & |\\
+\mu_1 & \mu_2 & \cdots & \mu_p \\
+| & | & & |\\
+\end{pmatrix}
+\begin{pmatrix}
+ \lambda_1  & \cdots  & 0\\
+ \vdots  & \ddots & \vdots \\
+ 0 &\cdots & \lambda_p
+ \\
+\end{pmatrix}
+\begin{pmatrix}
+- & \mu_1^T & - \\
+- & \mu_2^T & - \\
+  & \vdots  &   \\
+- & \mu_p^T & - \\
+\end{pmatrix}
+$$
 
 
 
