@@ -11,6 +11,8 @@ It is positive definite (P.D.) if
 
 $$Z^TMZ > 0 \quad  \forall \quad nonzero \quad Z$$
 
+$$P.D. \subset P.S.D. \subset \text{symmetric matrix} \subset \text{square matrix}$$
+
 __Ex__
 
 PSD or not?
@@ -100,7 +102,7 @@ This $$\mu$$ is called the eigenvector corresponding to $$\lambda$$
 
 Real symmetric matrix ==> guaranteed eigenvalue $$\lambda$$ is a real number.
 
-$$P.D. \subset P.S.D. \subset \text{symmetric matrix} \subset \text{square matrix}$$
+
 
 ### b.
 __Fact__ Let M be any real symmetric $$p \times p$$ matrix
