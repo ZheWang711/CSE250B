@@ -87,9 +87,9 @@ $$Z^T\Sigma Z = Z^T \Bbb{E}[(X-\mu)(X-\mu)^T] Z$$
 
 $$= \Bbb{E}[Z^T(X-\mu)(X-\mu)^TZ]$$
 
-$$= \Bbb{E}[Z \cdot (X-\mu) (X-\mu) \cdot Z]$$
+$$= \Bbb{E}[(Z^T(X-\mu))(Z^T(X-\mu))^T]$$ where $$Z^T(X-\mu)$$ is a number
 
-$$= \Bbb{E}[((X-\mu) \cdot Z)^2] \geq 0$$
+$$= \Bbb{E}[(Z^T(X-\mu))^2] \geq 0$$
 
 ## 2. Eigenvalues and eigenvectors
 
