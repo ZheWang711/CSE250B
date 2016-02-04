@@ -98,6 +98,10 @@ A $$p \times p$$ matrix M has eigenvalue $$\lambda$$, if there is some $$\mu \in
 
 This $$\mu$$ is called the eigenvector corresponding to $$\lambda$$
 
+Real symmetric matrix ==> guaranteed eigenvalue $$\lambda$$ is a real number.
+
+$$P.D. \subset P.S.D. \subset \text{symmetric matrix} \subset \text{square matrix}$$
+
 ### b.
 __Fact__ Let M be any real symmetric $$p \times p$$ matrix
 
