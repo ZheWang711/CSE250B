@@ -307,6 +307,12 @@ We'll show $$Z^T M Z \geq 0$$
 $$Z^T M Z = Z^T (\lambda_1 \mu_1 \mu_1^T + \cdots + \lambda_p \mu_p \mu_p^T)Z = \sum_{i=1}^{p} \lambda_i (Z^T \mu_i)(\mu_i^T Z) $$
 $$= \sum_{i=1}^{p} \lambda_i (Z \cdot \mu_i)^2 \geq 0$$
 
+### (b) Any form of $$VV^T$$ is $$P.S.D.$$
+
+* Symmetric: $$(VV^T)^T = VV^T$$
+* $$z^TVV^Tz = (z^TV)(z^TV)^T = (z^TV)^2$$ since $$z^TV$$ is a real number
+
+
 ## 4. Projection and basis change
 ### a. Projection
 What is the projection of a vector $$x \in \Bbb{R}^p$$ onto direction $$\mu$$? ($$||\mu|| = 1$$)
