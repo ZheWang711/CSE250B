@@ -415,7 +415,9 @@ $$\Leftrightarrow$$ $$(X^TQ) \Lambda^{-1}(Q^TX) = c$$
 
 $$\Leftrightarrow$$ $$Z^T \Lambda^{-1}Z = c$$
 
-$$\Sigma ^{-1} = Q \Sigma ^{-1} Q^T$$
+## 6. Projection of Gaussian
+
+$$N(\mu, \Sigma)$$
 
 
 
