@@ -411,9 +411,9 @@ $$(x-\mu)^T \Sigma^{-1} (x-\mu) = c$$
 
 $$\Leftrightarrow$$ $$(X^T\Sigma^{-1}X) = c$$
 
-$$\Leftrightarrow$$ $$(X^TQ) \Sigma^{-1}(Q^TX) = c$$
+$$\Leftrightarrow$$ $$(X^TQ) \Lambda^{-1}(Q^TX) = c$$
 
-$$\Leftrightarrow$$ $$Z^T \Sigma^{-1}Z = c$$
+$$\Leftrightarrow$$ $$Z^T \Lambda^{-1}Z = c$$
 
 $$\Sigma ^{-1} = Q \Sigma ^{-1} Q^T$$
 
