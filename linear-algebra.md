@@ -409,19 +409,9 @@ $$= Q \Lambda Q^TQ \Lambda^{-1}Q^T = Q \Lambda \Lambda^{-1} Q^T = QQ^T = I$$
 
 $$(x-\mu)^T \Sigma^{-1} (x-\mu) = c$$
 
+$$\Leftrightarrow$$ $$(X^T\Sigma^{-1}X) = c$$
 
+$$\Leftrightarrow$$ $$(X^TQ) \Sigma^{-1}(Q^TX) = c$$
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+$$\Leftrightarrow$$ $$Z^T \Sigma^{-1}Z = c$$
 
