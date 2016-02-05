@@ -397,6 +397,11 @@ Write $$\Sigma = \begin{pmatrix}
 \end{pmatrix}
 $$
 
+(I) $$|\Sigma| = \lambda_1 \cdots \lambda_p$$
+
+(II) What is $$\Sigma^{-1}$$
+
+
 
 
 
