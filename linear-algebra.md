@@ -401,6 +401,11 @@ $$
 
 (II) What is $$\Sigma^{-1}$$
 
+$$(Q\LambdaQ^T)$$
+
+
+
+
 
 
 
