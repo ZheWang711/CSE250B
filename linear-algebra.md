@@ -401,7 +401,16 @@ $$
 
 (II) What is $$\Sigma^{-1}$$
 
-$$(Q\LambdaQ^T)$$
+$$(Q \Lambda Q^T)(Q \Lambda^{-1} Q^T) $$
+
+$$= Q \Lambda Q^TQ \Lambda^{-1}Q^T = Q \Lambda \Lambda^{-1} Q^T = QQ^T = I$$
+
+(III) Contours of equal density
+
+$$(x-\mu)^T \Sigma^{-1} (x-\mu) = c$$
+
+
+
 
 
 
