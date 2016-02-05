@@ -415,3 +415,7 @@ $$\Leftrightarrow$$ $$(X^TQ) \Sigma^{-1}(Q^TX) = c$$
 
 $$\Leftrightarrow$$ $$Z^T \Sigma^{-1}Z = c$$
 
+$$\Sigma ^{-1} = Q \Sigma ^{-1} Q^T$$
+
+
+
