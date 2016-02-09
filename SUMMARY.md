@@ -11,5 +11,6 @@
 * [numPy](numpy.md)
 * [Generative model classification](generative_model_classification.md)
 * [Multivariate Gaussian](multivariate-gaussian.md)
+   * class note
 * [Linear Algebra Review](linear-algebra.md)
 
