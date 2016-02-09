@@ -13,5 +13,5 @@
 * [Multivariate Gaussian](multivariate-gaussian.md)
    * class note
 * [Linear Algebra Review](linear-algebra.md)
-* class note
+* [class note](class_note.md)
 
