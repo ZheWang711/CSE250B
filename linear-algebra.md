@@ -417,7 +417,17 @@ $$\Leftrightarrow$$ $$Z^T \Lambda^{-1}Z = c$$
 
 ## 6. Projection of Gaussian
 
-$$N(\mu, \Sigma)$$
+$$N(\mu, \Sigma)$$ Gaussian in $$\Bbb{R}^p$$
+
+Project it onto direction $$w \in \Bbb{R}^p$$
+
+The result is also a Gaussian.
+
+What are its mean and variance, in terms of $$\mu$$, $$\Sigma$$, $$w$$?
+
+$$X N(\mu, \Sigma)$$
+
+
 
 
 
