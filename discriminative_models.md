@@ -127,5 +127,7 @@ Valid only in a small neighbourhood
 
 $$W_{t+1} = W_t + \eta _t - \sum _{i=1}^n y^{(i)} x ^{(i)} Pr_w(-y^{(i)} | x ^ {(i)})$$
 
+## 4. Newton-Raphson
+
 
 
