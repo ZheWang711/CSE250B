@@ -119,6 +119,13 @@ $$L(W+U) \approx L(W) - \eta ||\triangledown L(W)||^2 < L(W)$$
 
 $$\eta $$ not too small and not too large.
 
+### c. Logistic Regression
+
+$$\triangledown L(W) = - \sum y^{(i)} x ^{(i)} Pr_w(-y^{(i)} | x ^ {(i)})$$
+
+Valid only in a small neighbourhood
+
+$$W_{t+1} = W_t + \eta _t - \sum _{i=1}^n y^{(i)} x ^{(i)} Pr_w(-y^{(i)} | x ^ {(i)})$$
 
 
 
