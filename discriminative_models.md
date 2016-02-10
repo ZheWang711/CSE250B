@@ -148,5 +148,9 @@ $$L(w+u) \approx L(w) + u \cdot \triangledown L(w)$$
 
 $$\quad \quad \quad \quad \quad \quad \quad \quad+ \frac 1 2 u^T H(w) u$$
 
+(ii) What is the minimum of this quadratic approximation?
+
+Set derivative to zero
+
 
 
