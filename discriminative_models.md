@@ -1,2 +1,15 @@
 # Discriminative Models
 
+## 1. A closer look at $$L(W)$$
+
+### a. Loss function for Logistic Regression
+
+$$L(W) = \sum_{i=1}^{n} ln(1+e^{-y(i)(w\cdot x(i))})$$
+
+To minimize, just set derivative to zero,right?
+
+### b.
+There are p partial derivatives
+
+$$\frac {\partial L} {\partial w_1}$$, $$\cdots$$, $$\frac {\partial L} {\partial w_p}$$
+
