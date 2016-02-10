@@ -13,4 +13,5 @@
 * [Multivariate Gaussian](multivariate-gaussian.md)
 * [Linear Algebra Review](linear-algebra.md)
 * [class note](class_note.md)
+* Discriminative Models
 
