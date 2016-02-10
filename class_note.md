@@ -28,8 +28,20 @@ For convex optimazation, learn ECE273.
     * For each point that is not correctly classified, use a little slack
     * maximize the margin in the mean while minimize the sum of the slack
     * $$0 <= \alpha_i <= C$$, not a single point can contribute too much!
-    * C: the trade off of minimizing slack and maximizing $$\gamma$$
+    * C: the trade off of minimizing slack and maximizing $$\gamma$$, (the cost of slack).
     * All the not separable data are going to be in supported vectors
+    * When increase C, allow smaller slack, margin is smaller, less supported vector.
+    * how to choose C? Validation set!
+
+
+* 0-1 loss
+    * not only the problem itself is NP-hard, but also finding an approximation is NP-hard
+    * SVM hunge loss: charge $$1-y(w*x)$$
+    * logistic loss: $$ln(1 + e^{-y(w*x)})$$
+
+
+
+
 ---
 
 
