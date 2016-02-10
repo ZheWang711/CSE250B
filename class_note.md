@@ -40,7 +40,10 @@ For convex optimazation, learn ECE273.
     * logistic loss: $$ln(1 + e^{-y(w*x)})$$
 
 
-
+* Noise: only few points are not linearly separable
+* Systematic deviation: the data is far from linear separable
+    * Quadratic:add extra *quadratic* features, then the boundary in terms of the extended data, then we can keep using a linear classifier!
+        * $$\Phi$$ is 6 dimensional, $$x$$ is 3 dimensional, $$w$$ is also 6 dimensional!
 
 ---
 
