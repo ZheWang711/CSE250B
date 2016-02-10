@@ -19,7 +19,17 @@ Most of the weights $$\alpha$$ is zero, the weight is not zero iff $$y^i(w*x^i +
 For convex optimazation, learn ECE273.
 
 
-
+* Iris data set:
+    * w is 2d
+    * b is only a number
+* What if the data is not linearly separable?
+    * If we just run the precepton -> never converge
+    * Introduce a slack variable for each point
+    * For each point that is not correctly classified, use a little slack
+    * maximize the margin in the mean while minimize the sum of the slack
+    * $$0 <= \alpha_i <= C$$, not a single point can contribute too much!
+    * C: the trade off of minimizing slack and maximizing $$\gamma$$
+    * All the not separable data are going to be in supported vectors
 ---
 
 
