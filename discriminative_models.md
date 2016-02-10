@@ -25,5 +25,16 @@ In general,
 $$\triangledown L(W) = 0 \Leftrightarrow w$$ is a local optimum.
 Plus L(W) is convex, local opt $$\Leftrightarrow$$ global opt.
 
+## 2. Convexity
+
+### a.
+
+__Def:__ A function $$f: \Bbb{R}^p \to \Bbb{R}$$ is convex if for all $$a, b \in \Bbb{R}^p$$, and all $$0 \leq \theta \leq 1$$, the following:
+
+$$f(\theta a + (1-\theta)b) \leq \theta f(a) + (1-\theta)f(b)$$
+
+f ins concave $$\Leftrightarrow$$ -f is convex.
+
+
 
 
