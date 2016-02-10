@@ -129,5 +129,24 @@ $$W_{t+1} = W_t + \eta _t - \sum _{i=1}^n y^{(i)} x ^{(i)} Pr_w(-y^{(i)} | x ^ {
 
 ## 4. Newton-Raphson
 
+### a. 
+Unconstrained minimization again
+
+$$W_0 = 0$$, $$t = 0$$
+
+While $$\triangledown L(w_t) \neq 0$$:
+
+$$\quad w_{t+1} = w_t - \eta _t H^{-1} (w_t) \triangledown L(w_t)$$
+
+
+### b. Rationale
+(i) Second-order Taylor expansion
+
+For small u,
+
+$$L(w+u) \approx L(w) + u \cdot \triangledown L(w)$$
+
+$$\quad \quad \quad \quad \quad \quad \quad \quad+ \frac 1 2 u^T H(w) u$$
+
 
 
