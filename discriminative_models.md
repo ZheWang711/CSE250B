@@ -82,4 +82,12 @@ $$
 
 $$\Rightarrow$$ $$H$$ is PSD
 
+__Fact:__ Any matrix of the form $$VV^T$$ is PSD
 
+Check
+
+(1) Symmetric: $$(VV^T)^T = VV^T$$
+
+(2) For any $$Z \in \Bbb{R}^p$$
+
+$$Z^TVV^TZ = $$
