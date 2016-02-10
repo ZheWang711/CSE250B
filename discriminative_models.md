@@ -19,7 +19,10 @@ $$\triangledown L = (\frac {\partial L} {\partial w_1}, \cdots, \frac {\partial 
 
 $$\triangledown L(W) = - \sum_{i=1}^n y^{(i)} x^{(i)} \frac {1} {1 + e^{y^{(i)} (w \cdot x^{(i)})}}$$
 
+### c.
+In general,
 
+$$\triangledown L(W) = 0 \Leftrightarrow $$
 
 
 
