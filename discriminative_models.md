@@ -94,3 +94,31 @@ $$Z^TVV^TZ = (Z^TV)(V^TZ) = (V^TZ)^T(V^TZ) = ||V^TZ||^2 \geq 0$$
 
 ## 3. Gradient Descent
 
+### a.
+$$W_0 = 0$$, $$t = 0$$
+
+While $$\triangledown L(W_t) \neq 0:$$
+
+$$\quad W_{t+1} = W_t - \eta _t \triangledown L(W_t)$$
+
+$$\quad t = t+ 1$$
+
+$$\eta _t$$ is the step size at time $$t$$
+
+### b. Rationale
+
+(i) "Differentiable" $$\equiv$$ "locally linear"
+
+(ii) For small displacements $$U \in \Bbb{R}^p$$
+
+$$L(W+U) \approx L(W) + U \cdot \triangledown L(W)$$
+
+If $$U = - \eta \triangledown L(W)$$
+
+$$L(W+U) \approx L(W) - \eta ||\triangledown L(W)||^2 < L(W)$$
+
+$$\eta $$ not too small and not too large.
+
+
+
+
