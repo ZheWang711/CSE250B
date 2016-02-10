@@ -52,3 +52,9 @@ Then
 $$L(W) = \sum_{i=1}^{n} ln(1+e^{-y^{(i)}(w\cdot x^{(i)})})$$
 
 $$\frac {\partial L} {\partial w_j} = - \sum_{i=1}^n y^{(i)} x_j^{(i)} \frac {1} {1 + e^{y^{(i)} (w \cdot x_j^{(i)})}}$$
+
+$$\frac {\partial^2 L} {\partial w_k \partial w_j} = \sum_{i=1}^n x_j^{(i)} x_k^{(i)} \frac 1 {1 + e^{w\cdot x^{(i)}}} \frac 1 {1 + e^{-w \cdot x^{(i)}}}$$
+
+Suppose we can find vectors $$v_1, \cdots, v_p$$ such that:
+
+$$\frac {\partial^2 L} {\partial w_j \partial w_k} = v_j \cdot v_k$$
