@@ -13,3 +13,6 @@ There are p partial derivatives
 
 $$\frac {\partial L} {\partial w_1}$$, $$\cdots$$, $$\frac {\partial L} {\partial w_p}$$
 
+Assemble into a vector:
+
+$$\triangledownL = (\frac {\partial L} {\partial w_1}, \cdots, \frac {\partial L} {\partial w_p})$$
