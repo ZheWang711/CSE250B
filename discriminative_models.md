@@ -21,3 +21,5 @@ $$\triangledown L(W) = - \sum_{i=1}^n y^{(i)} x^{(i)} \frac {1} {1 + e^{y^{(i)} 
 
 
 
+
+
