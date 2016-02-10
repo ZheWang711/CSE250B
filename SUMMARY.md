@@ -3,7 +3,6 @@
 * [readme](README.md)
 * [Introduction](chapter1.md)
 * [HTF summary](htf_summary.md)
-   * Discriminative
 * [Nearest Neighbor classification](nearest_neighbor_classification.md)
 * [homework1](homework1.md)
 * [Non-paramatric methods](non-paramatric_methods.md)
