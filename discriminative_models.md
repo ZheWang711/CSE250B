@@ -15,4 +15,7 @@ $$\frac {\partial L} {\partial w_1}$$, $$\cdots$$, $$\frac {\partial L} {\partia
 
 Assemble into a vector:
 
-$$\triangledownL = (\frac {\partial L} {\partial w_1}, \cdots, \frac {\partial L} {\partial w_p})$$
+$$\triangledown L = (\frac {\partial L} {\partial w_1}, \cdots, \frac {\partial L} {\partial w_p})$$
+
+$$\triangledown L(W) = - \sum_{i=1}^n y(i) x(i) \frac {1} {1 + e^{y(i)(w \cdot x(i))}}$$
+
