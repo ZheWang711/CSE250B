@@ -42,6 +42,12 @@ i.e. the second partial derivatives $$\frac {\partial^2 f} {\partial x_i \partia
 
 For any $$Z \in \Bbb{R}^p$$, the Hessian $$H(Z)$$ is the matrix of second derivatives of $$Z$$:
 
-$$H_{jk} = \frac {\partial^2 f} {\partial Z_j \partial z_k}$$
+$$H_{jk} = \frac {\partial^2 f} {\partial Z_j \partial z_k}$$ $$(\triangledown^2 f)$$
+
+Then
+- H is symmetric
+- f  is convex $$\Leftrightarrow H(Z)$$ is PSD $$\forall z \in \Bbb{R}^p$$
+
+
 
 
