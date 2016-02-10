@@ -427,6 +427,8 @@ What are its mean and variance, in terms of $$\mu$$, $$\Sigma$$, $$w$$?
 
 $$X \sim N(\mu, \Sigma)$$
 
+$$\Bbb{E} X = \mu$$
+
 
 
 
