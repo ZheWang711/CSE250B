@@ -65,4 +65,6 @@ Define $$v_1, \cdots, v_p \in \Bbb{R}^n$$ as follows.
 
 $$V_{ji} = X_j^{(i)} \sqrt{\frac 1 {(1+e^{w \cdot x^{(i)}}) (1+e^{-w \cdot x^{(i)}})}}$$
 
+Notice $$H_{jk} = \frac {\partial^2 L} {\partial w_j \partial w_k} = v_j\cdot v_k$$
+
 
