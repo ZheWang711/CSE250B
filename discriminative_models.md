@@ -67,4 +67,19 @@ $$V_{ji} = X_j^{(i)} \sqrt{\frac 1 {(1+e^{w \cdot x^{(i)}}) (1+e^{-w \cdot x^{(i
 
 Notice $$H_{jk} = \frac {\partial^2 L} {\partial w_j \partial w_k} = v_j\cdot v_k$$
 
+$$\Rightarrow H = 
+\begin{pmatrix}
+- &v_1& -\\
+&\vdots& \\
+-&v_p&- \\
+\end{pmatrix}
+\begin{pmatrix}
+| & & |\\
+v_1 &\dots&v_p\\
+| & & |\\
+\end{pmatrix}
+$$
+
+$$\Rightarrow H is PSD$$
+
 
