@@ -48,6 +48,3 @@ Then
 - H is symmetric
 - f  is convex $$\Leftrightarrow H(Z)$$ is PSD $$\forall z \in \Bbb{R}^p$$
 
-
-
-
