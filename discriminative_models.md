@@ -90,4 +90,7 @@ Check
 
 (2) For any $$Z \in \Bbb{R}^p$$
 
-$$Z^TVV^TZ = $$
+$$Z^TVV^TZ = (Z^TV)(V^TZ) = (V^TZ)^T(V^TZ) = ||V^TZ||^2 \geq 0$$
+
+## 3. Gradient Descent
+
