@@ -4,7 +4,7 @@
 
 ### a. Loss function for Logistic Regression
 
-$$L(W) = \sum_{i=1}^{n} ln(1+e^{-y(i)(w\cdot x(i))})$$
+$$L(W) = \sum_{i=1}^{n} ln(1+e^{-y^{(i)}(w\cdot x^{(i)})})$$
 
 To minimize, just set derivative to zero,right?
 
@@ -17,5 +17,7 @@ Assemble into a vector:
 
 $$\triangledown L = (\frac {\partial L} {\partial w_1}, \cdots, \frac {\partial L} {\partial w_p})$$
 
-$$\triangledown L(W) = - \sum_{i=1}^n y(i) x(i) \frac {1} {1 + e^{y(i)(w \cdot x(i))}}$$
+$$\triangledown L(W) = - \sum_{i=1}^n y^{(i)} x^{(i)} \frac {1} {1 + e^{y^{(i)} (w \cdot x^{(i)})}}$$
+
+
 
