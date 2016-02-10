@@ -48,3 +48,7 @@ Then
 - H is symmetric
 - f  is convex $$\Leftrightarrow H(Z)$$ is PSD $$\forall z \in \Bbb{R}^p$$
 
+### c. Logistic Regression
+$$L(W) = \sum_{i=1}^{n} ln(1+e^{-y^{(i)}(w\cdot x^{(i)})})$$
+
+$$\frac {\partial L} {\partial w_j} = - \sum_{i=1}^n y^{(i)} x_j^{(i)} \frac {1} {1 + e^{y^{(i)} (w \cdot x_j^{(i)})}}$$
