@@ -44,7 +44,10 @@ For convex optimazation, learn ECE273.
 * Systematic deviation: the data is far from linear separable
     * Quadratic:add extra *quadratic* features, then the boundary in terms of the extended data, then we can keep using a linear classifier!
         * $$\Phi$$ is 6 dimensional, $$x$$ is 3 dimensional, $$w$$ is also 6 dimensional!
+        * Problem: MNIST dimension = 784 + 784*783/2 = 307720 dimensions
+    * use **kernel trick** to solve the above problem
+        * we are't certain corroidnate of data, we only need dot product!
+        * the dot product of two enhanced vector `x*z` is just`(1+x*z)^2`! Thus we can do the dot product of high-dimensional data in low dimension! 
 
 ---
-
 
