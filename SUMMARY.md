@@ -11,6 +11,7 @@
 * [Decision Trees](decision_trees.md)
 * [numPy](numpy.md)
 * [Generative model classification](generative_model_classification.md)
+   * Discriminative
 * [Multivariate Gaussian](multivariate-gaussian.md)
 * [Linear Algebra Review](linear-algebra.md)
 * [class note](class_note.md)
