@@ -439,6 +439,11 @@ $$= \Bbb{E}(x_1w_1) + \cdots + \Bbb{E}(x_pw_p)$$
 
 $$= (\Bbb{E}[x_1] + \cdots + \Bbb{E}[x_p]) \cdots w = \mu^T \cdot w$$
 
+$$Var(x^Tw) = w^T \Sigma w$$
+
+$$Var(x^Tw) = \Bbb{E}(x^Tw - \mu^T w)^w = \Bbb{E} [(w^Tx - w^T\mu)(x^Tw - \mu^Tw)]$$
+
+$$= \Bbb{E} [w^T(x-\mu)(x-\mu)^Tw] = w^T\Bbb{E}[(x-\mu)(x-\mu)^T]w = w^T\Sigma w$$
 
 
 
