@@ -22,7 +22,8 @@ $$\triangledown L(W) = - \sum_{i=1}^n y^{(i)} x^{(i)} \frac {1} {1 + e^{y^{(i)} 
 ### c.
 In general,
 
-$$\triangledown L(W) = 0 \Leftrightarrow $$
+$$\triangledown L(W) = 0 \Leftrightarrow w$$ is a local optimum.
+Plus L(W) is convex, local opt $$\Leftrightarrow$$ global opt.
 
 
 
