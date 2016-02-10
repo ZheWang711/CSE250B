@@ -80,6 +80,6 @@ v_1 &\dots&v_p\\
 \end{pmatrix}
 $$
 
-$$\Rightarrow H is PSD$$
+$$\Rightarrow$$ H is PSD
 
 
