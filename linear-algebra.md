@@ -429,6 +429,15 @@ $$X \sim N(\mu, \Sigma)$$
 
 $$\Bbb{E} X = \mu$$
 
+$$\Bbb{E} (X-\mu)(X-\mu)^T = \Sigma$$
+
+Project Gaussian:
+
+$$\Bbb{E}(X^T \cdot w) = \Bbb{E}(x_1w_1 + \cdots + x_pw_p)$$
+
+$$= \Bbb{E}(x_1w_1) + \cdots + \Bbb{E}(x_pw_p)$$
+
+$$= (\Bbb{E}[x_1] + \cdots + \Bbb{E}[x_p]) \cdots w = \mu^T \cdot w$$
 
 
 
