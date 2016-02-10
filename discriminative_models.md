@@ -42,6 +42,6 @@ i.e. the second partial derivatives $$\frac {\partial^2 f} {\partial x_i \partia
 
 For any $$Z \in \Bbb{R}^p$$, the Hessian $$H(Z)$$ is the matrix of second derivatives of $$Z$$:
 
-$$H_jk = \frac {\partial^2 f} {\partial Z_j \partial z_k}$$
+$$H_{jk} = \frac {\partial^2 f} {\partial Z_j \partial z_k}$$
 
 
