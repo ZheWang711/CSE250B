@@ -35,6 +35,13 @@ $$f(\theta a + (1-\theta)b) \leq \theta f(a) + (1-\theta)f(b)$$
 
 f ins concave $$\Leftrightarrow$$ -f is convex.
 
+### b. Testing Convexity
+Suppose $$f: \Bbb{R}^p \to \Bbb{R}$$ is twice differentiable.
 
+i.e. the second partial derivatives $$\frac {\partial^2 f} {\partial x_i \partial x_j}$$ exist everywhere, suppose moreover that these are continuous.
+
+For any $$Z \in \Bbb{R}^p$$, the Hessian $$H(Z)$$ is the matrix of second derivatives of $$Z$$:
+
+$$H_jk = \frac {\partial^2 f} {\partial Z_j \partial z_k}$$
 
 
