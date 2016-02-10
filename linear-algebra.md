@@ -425,7 +425,7 @@ The result is also a Gaussian.
 
 What are its mean and variance, in terms of $$\mu$$, $$\Sigma$$, $$w$$?
 
-$$X N(\mu, \Sigma)$$
+$$X \sim N(\mu, \Sigma)$$
 
 
 
