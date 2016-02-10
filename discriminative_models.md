@@ -58,3 +58,11 @@ $$\frac {\partial^2 L} {\partial w_k \partial w_j} = \sum_{i=1}^n x_j^{(i)} x_k^
 Suppose we can find vectors $$v_1, \cdots, v_p$$ such that:
 
 $$\frac {\partial^2 L} {\partial w_j \partial w_k} = v_j \cdot v_k$$
+
+Then the Hessian is PSD
+
+Define $$v_1, \cdots, v_p \in \Bbb{R}^n$$ as follows.
+
+$$V_{ji} = X_j^{(i)} \sqrt{\frac 1 {(1+e^{w \cdot x^{(i)}}) (1+e^{-w \cdot x^{(i)}})}}$$
+
+
