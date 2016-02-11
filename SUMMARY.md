@@ -13,6 +13,6 @@
 * [Multivariate Gaussian](multivariate-gaussian.md)
 * [Linear Algebra Review](linear-algebra.md)
 * [class note](class_note.md)
-   * Feb 11
+   * [Feb 11](feb_11.md)
 * [Discriminative Models](discriminative_models.md)
 
