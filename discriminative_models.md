@@ -97,7 +97,7 @@ $$Z^TVV^TZ = (Z^TV)(V^TZ) = (V^TZ)^T(V^TZ) = ||V^TZ||^2 \geq 0$$
 ### a.
 $$W_0 = 0$$, $$t = 0$$
 
-While $$\triangledown L(W_t) \neq 0:$$
+While $$\triangledown L(W_t) \not\approx 0:$$
 
 $$\quad W_{t+1} = W_t - \eta _t \triangledown L(W_t)$$
 
@@ -134,7 +134,7 @@ Unconstrained minimization again
 
 $$w_0 = 0$$, $$t = 0$$
 
-While $$\triangledown L(w_t) \neq 0$$:
+While $$\triangledown L(w_t) \not\approx 0$$:
 
 $$\quad w_{t+1} = w_t - \eta _t H^{-1} (w_t) \triangledown L(w_t)$$
 
