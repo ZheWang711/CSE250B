@@ -132,7 +132,7 @@ $$W_{t+1} = W_t + \eta _t - \sum _{i=1}^n y^{(i)} x ^{(i)} Pr_w(-y^{(i)} | x ^ {
 ### a. 
 Unconstrained minimization again
 
-$$W_0 = 0$$, $$t = 0$$
+$$w_0 = 0$$, $$t = 0$$
 
 While $$\triangledown L(w_t) \neq 0$$:
 
