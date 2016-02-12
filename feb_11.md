@@ -32,6 +32,9 @@
 Embed the sequence into some same uniquious space (infinite dimensions).
 
 Substring: a sequence of words (e.g. "Hello", "Hello World")
+Infinitely many coordinates.(at most $$n^2$$ no zero)
+
+Support vector ==> weighted vote by similarity ==> like "prototype selection in NN".
 
 
 
