@@ -36,7 +36,8 @@ Infinitely many coordinates.(at most $$n^2$$ no zero)
 
 Support vector ==> weighted vote by similarity ==> like "prototype selection in NN".
 
+* to check whether a similarity function is OK ==> check if all the egenivales of matrix $$K$$ are >= 0.
 
-
+* $$UU^T = K$$, where ith row of U is $$\phi(x_i)$$
 
 
