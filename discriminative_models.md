@@ -156,6 +156,11 @@ $$\quad \quad \quad \quad \quad \quad \quad \quad+ \frac 1 2 u^T H(w) u$$
 (ii) What is the minimum of this quadratic approximation?
 
 Set derivative to zero
+$$\triangledown L(w) + H(W)U = 0$$ 
+
+$$\Rightarrow U = -H(w) ^{-1} \triangledown L(w)$$
 
 
+ADV: Need fewer rounds.
+DIS: Heissen matrix is a p*p matrix.
 
