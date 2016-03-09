@@ -15,7 +15,12 @@ $$\frac {\partial L} {\partial w_1}$$, $$\cdots$$, $$\frac {\partial L} {\partia
 
 Assemble into a vector:
 
-$$\triangledown L = (\frac {\partial L} {\partial w_1}, \cdots, \frac {\partial L} {\partial w_p})$$
+$$\triangledown L(W) = (\frac {\partial L} {\partial w_1}, \cdots, \frac {\partial L} {\partial w_p})$$
+
+$$\frac {\partial{L}} {\partial{w_j}} = \sum _{i=1} ^n \frac {e^{-y^{(i)}(w \cdot x^{(i)})}} {1 + e^{-y^{(i)}(w \cdot x^{(i)})}} (-y^{(i)}x_j^{(i)})$$
+
+$$= - \sum _{i=1} ^n y^{(i)} x_j ^{(i)} \frac 1 {1 + e^{y^{(i)}(w \cdot x^{(i)})}}$$
+Thus:
 
 $$\triangledown L(W) = - \sum_{i=1}^n y^{(i)} x^{(i)} \frac {1} {1 + e^{y^{(i)} (w \cdot x^{(i)})}}$$
 
@@ -151,6 +156,11 @@ $$\quad \quad \quad \quad \quad \quad \quad \quad+ \frac 1 2 u^T H(w) u$$
 (ii) What is the minimum of this quadratic approximation?
 
 Set derivative to zero
+$$\triangledown L(w) + H(W)U = 0$$ 
+
+$$\Rightarrow U = -H(w) ^{-1} \triangledown L(w)$$
 
 
+ADV: Need fewer rounds.
+DIS: Heissen matrix is a p*p matrix.
 
