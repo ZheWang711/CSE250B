@@ -15,5 +15,5 @@
 * [class note](class_note.md)
    * [Feb 11](feb_11.md)
 * [Discriminative Models](discriminative_models.md)
-* Final Review
+* [Final Review](final_review.md)
 
