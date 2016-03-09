@@ -16,5 +16,5 @@
    * [Feb 11](feb_11.md)
 * [Discriminative Models](discriminative_models.md)
 * [Final Review](final_review.md)
-   * Classification with discriminative models
+   * [Classification with discriminative models](classification_with_discriminative_models.md)
 
